@@ -7,7 +7,7 @@
 using namespace std;
 
 vector<int> smallestDifference(vector<int> arrayOne, vector<int> arrayTwo) {
-  //lets sort the arrays so that we have some friendlier data
+  	//lets sort the arrays so that we have some friendlier data
 	//as well it'll help us stop checking early to save calcs
 	sort(arrayOne.begin(), arrayOne.end());
 	sort(arrayTwo.begin(), arrayTwo.end());
