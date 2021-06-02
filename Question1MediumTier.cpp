@@ -7,7 +7,7 @@
 using namespace std;
 
 vector<vector<int>> threeNumberSum(vector<int> array, int targetSum) {
-  //in order to do this we're going to first sort the array
+  	//in order to do this we're going to first sort the array
 	//that way we have ordered data that is easier to work with
 	//then for each value, we're going to add the next value as well as the
 	//final value
