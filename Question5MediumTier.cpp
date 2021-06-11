@@ -7,7 +7,7 @@
 using namespace std;
 
 vector<int> spiralTraverse(vector<vector<int>> array) {
-  //the first thing we do is handle an edge case that will break things
+ 	//the first thing we do is handle an edge case that will break things
 	if(array.size() == 0){
 		return {};
 	}
