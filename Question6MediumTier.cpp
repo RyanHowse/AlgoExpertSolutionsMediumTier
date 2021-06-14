@@ -7,7 +7,7 @@
 using namespace std;
 
 int longestPeak(vector<int> array) {
-  //first let's have a return counter
+  	//first let's have a return counter
 	int highestPeak = 0;
 	//and a counter for the current peak
 	int currentPeak = 0;
